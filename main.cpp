@@ -11,7 +11,7 @@ int main() {
 double a=0, b=0,err=0, x=0, fx=0;
 
 do {
-    cout << "inserire valori"<< endl;
+    cout << "inserire estremi"<< endl;
     cin >> a >> b ;
 } while (f(a, fx)*f(b, fx)>=0);
 
